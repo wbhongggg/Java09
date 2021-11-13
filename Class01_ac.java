@@ -1,14 +1,13 @@
-package Java09;
 class CRectangle
 {
 	int width;
 	int height;
-	public CRectangle(int w,int h)
+	public CRectangle(int w,int h)	//(a)
 	{
 		width=w;
 		height=h;
 	}
-	public CRectangle()
+	public CRectangle()	//(c)
 	{
 		this(10,8);
 	}

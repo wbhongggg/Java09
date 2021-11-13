@@ -3,12 +3,12 @@ class CRectangle
 {
 	int width;
 	int height;
-	public CRectangle(int w,int h)
+	public CRectangle(int w,int h)	//(a)
 	{
 		width=w;
 		height=h;
 	}
-	public CRectangle()
+	public CRectangle()	//(b)
 	{
 		width=10;
 		height=8;
