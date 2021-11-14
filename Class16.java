@@ -23,7 +23,7 @@ public class Class16
    public static void main(String args[])
    {
       CCircle cir[];
-      cir=new CCircle[5];
+      cir=new CCircle[6];
       for(int i=0;i<=5;i++)
       {
     	  cir[i]=new CCircle(i);
